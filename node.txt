@@ -17,4 +17,13 @@ it will create a private scope which allows us to reuse the function or variable
 ///
 whenever node.js runs a function it will proivde five parameters (__dirname,__filename,exports,require,module)
 ///
-memory cache
+memory cache 
+
+///
+commonjs - each file is treated as a module
+we cant export variables,classes,functions to other files by default
+explicitly we need to tell which part of the code needed to be exported
+require function is used to inject the path files into another module
+
+///
+ES module

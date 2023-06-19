@@ -1,0 +1,20 @@
+REPL stands for 
+Read
+Evaluate
+Print
+Loop
+////////
+Modules 
+types of Modules
+1.local modules -which we can have in our application
+2.built in modules-node.js will give the modules
+3.third party modules which are developed by other developers whic we can use in our application
+
+////
+iife - immediate invoke function expression
+when node.js runs it will wrap with the function wrapper which provide scope 
+it will create a private scope which allows us to reuse the function or variable without conflicts
+///
+whenever node.js runs a function it will proivde five parameters (__dirname,__filename,exports,require,module)
+///
+memory cache
